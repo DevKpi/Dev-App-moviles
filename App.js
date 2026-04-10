@@ -12,6 +12,10 @@ export default function App() {
       <StatusBar style="auto" />
       <Button title="Presioname" onPress={() => alert("Hola desde la app")} />
       <Perfil nombre="Ana" edad={20} /> 
+
+      <Perfil nombre="Juan" edad={25} />
+      <Perfil nombre="Lucía" edad={30} /> 
+
     </View>
   );  
 }
