@@ -1,7 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, Text, View } from 'react-native';
 import Saludo from './componentes/Saludo';
-import Alert from './componentes/Alert';
+import Perfil from './componentes/Perfil';
+
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
       <Button title="Presioname" onPress={() => alert("Hola desde la app")} />
+      <Perfil nombre="Ana" edad={20} /> 
     </View>
   );  
 }
